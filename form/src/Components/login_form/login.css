@@ -1,0 +1,67 @@
+/* Full-page background styling */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light Bootstrap background color */
+}
+
+/* Card styling */
+.login-card {
+  width: 30rem; /* Fixed width for the login card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border-radius: 10px; /* Smooth card corners */
+  background-color: white; /* Ensure card is white */
+  padding: 2rem; /* Added padding inside the card for better spacing */
+}
+
+/* Card title styling */
+.login-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem; /* Increased space between title and inputs */
+}
+
+/* Input fields styling */
+.form-control {
+  border-radius: 5px; /* Rounded edges for input fields */
+  border: 1px solid #ced4da; /* Light border */
+  padding: 10px;
+  margin-bottom: 1.5rem; /* Space between input fields */
+  font-size: 0.95rem;
+  width: 100%; /* Make inputs fill available space */
+}
+
+/* Submit button styling */
+.btn-primary {
+  background-color: #007bff; /* Bootstrap blue */
+  border-color: #007bff;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Text and link styling */
+.text-center {
+  font-size: 0.9rem;
+  color: #6c757d; /* Subtle gray */
+  margin-top: 1rem; /* Space between form and text */
+}
+
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
